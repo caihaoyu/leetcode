@@ -153,6 +153,7 @@ class Solution(object):
                             end = len(v)-1
 
             return res
+    hash = {}
     def isMatch(self, s, p,i=0,c=0):
         def check(s,p):
             return p == "." or s == p
